@@ -5,6 +5,9 @@
 <title>Confirma tu nota final</title>
 </head>
 
+    
+    
+   
 <body>
     <a href="formIMC.php">
         <span>Formulario de ICM</span>
