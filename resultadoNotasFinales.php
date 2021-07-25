@@ -1,3 +1,20 @@
+<!DOCTYPE html public>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf8" />
+<title>Confirma tu nota final</title>
+</head>
+
+<body>
+    <a href="formIMC.php">
+        <span>Formulario de ICM</span>
+    </a><span>---</span>
+    <a href="formAutomoviles.php">
+        <span>Formulario de autos</span>
+    </a><span>---</span>
+    <a href="formAmortizaciones.php">
+        <span>Formulario de credito</span>
+    </a>   
 <?php
 #35% del promedio de los 3 parciales.
 #35% de la calificación del examen final.
@@ -13,6 +30,9 @@ $resultadoDefinitivo = (((($parcial1+$parcial2+$parcial3)/3)*0.35)+($examenFinal
 $mensaje = "Aprobado";
 if ($resultadoDefinitivo<3){
     $mensaje = "No aprobado";}
-echo "Usted se encuentra $mensaje en esta materia con una nota de $resultadoDefinitivo";
+echo "Usted se encuentra $mensaje en esta materia con una nota de $resultadoDefinitivo.";
 
 ?>
+
+</body>
+</html>

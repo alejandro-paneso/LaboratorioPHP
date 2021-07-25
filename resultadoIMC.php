@@ -1,3 +1,20 @@
+<!DOCTYPE html public>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf8" />
+<title>Averigue su ICM</title>
+</head>
+
+<body>
+    <a href="formAmortizaciones.php">
+        <span>Formulario de creditos</span>
+    </a><span>---</span>
+    <a href="formNotasFinales.php">
+        <span>Formulario de notas</span>
+    </a><span>---</span>
+    <a href="formAutomoviles.php">
+        <span>Formulario de autos</span>
+    </a>
 <?php
 
 $nombreDelPaciente = $_POST['nombre'];
@@ -20,6 +37,8 @@ if ($indiceMasaCorporal>30 and $indiceMasaCorporal<39.9){
 if($indiceMasaCorporal>40)
 {$criterio = "con obesidad mórbida";}
 
-echo "Estimado $nombreDelPaciente Su ICM es de $indiceMasaCorporal, se encuentra $criterio";
+echo "Estimado $nombreDelPaciente Su ICM es de $indiceMasaCorporal, se encuentra $criterio.";
 
 ?>
+</body>
+</html>

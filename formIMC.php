@@ -17,7 +17,7 @@
     </a>
 <form action="resultadoIMC.php" method="post">
     <p>Nombre del paciente:<input type="text" name="nombre"/></p>
-    <p>Peso en kilogramos: <input type="number" name="peso"/></p>
+    <p>Peso en kilogramos: <input type="number" step="0.01" min="0" max="200" name="peso"/></p>
     <p>Estatura en centimetros: <input type="number" name="altura"/></p>
     <p><input type="submit" value="Calcular"/></p>
 </form>

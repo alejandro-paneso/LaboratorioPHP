@@ -14,12 +14,13 @@
     </a><span>---</span>
     <a href="formAmortizaciones.php">
         <span>Formulario de credito</span>
+    </a>   
 <form action="resultadoNotasFinales.php" method="post">
-    <p>Parcial 1:<input type="number" name="parcial1"/></p>
-    <p>Parcial 2:<input type="number" name="parcial2"/></p>
-    <p>Parcial 3:<input type="number" name="parcial3"/></p>
-    <p>Examen final: <input type="number" name="examenFinal"/></p>
-    <p>Trabajo final: <input type="number" name="trabajoFinal"></p>
+    <p>Parcial 1:<input type="number" step="0.01" min="0" max="10" name="parcial1"/></p>
+    <p>Parcial 2:<input type="number" step="0.01" min="0" max="10" name="parcial2"/></p>
+    <p>Parcial 3:<input type="number" step="0.01" min="0" max="10" name="parcial3"/></p>
+    <p>Examen final: <input type="number" step="0.01" min="0" max="10" name="examenFinal"/></p>
+    <p>Trabajo final: <input type="number" step="0.01" min="0" max="10" name="trabajoFinal"></p>
     <p><input type="submit" value="Revisar"/></p>
 </form>
 

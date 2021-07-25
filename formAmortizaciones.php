@@ -4,10 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html"; charset="utf8" />
 <title>Confirma tu nota final</title>
 </head>
-
     
-    
-   
 <body>
     <a href="formIMC.php">
         <span>Formulario de ICM</span>

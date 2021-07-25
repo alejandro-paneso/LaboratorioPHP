@@ -15,7 +15,6 @@
     <a href="formAmortizaciones.php">
         <span>Formulario de credito</span>
     </a>
-
 <form action="resultadoautos.php" method="post">
     <p>Nombre del vendedor:<input type="text" name="nombreVendedor"/></p>
     <p>Cantidad automoviles vendidos: <input type="number" name="cantidadVendidos"/></p>
